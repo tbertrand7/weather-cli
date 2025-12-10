@@ -5,24 +5,28 @@ Weather CLI is a simple command-line tool to get real-time weather information u
 ## 🚀 Installation
 
 ### 1️⃣ Clone the repository:
+
 ```bash
 git clone https://github.com/k4ik/weather-cli.git
 cd weather-cli
 ```
 
 ### 2️⃣ Create a virtual environment (optional but recommended):
+
 ```sh
-python3 -m venv venv
-source venv/bin/activate  # Linux/Mac
-venv\Scripts\activate  # Windows
+python3 -m venv .venv
+source .venv/bin/activate  # Linux/Mac
+.venv\Scripts\activate  # Windows
 ```
 
 ### 3️⃣ Install dependencies:
+
 ```bash
 pip install -e .
 ```
 
 ## ⚙️ Configuration
+
 ### 1️⃣ Set up API Key and language:
 
 ```bash
@@ -30,11 +34,15 @@ weather-config
 ```
 
 ## 🌦️ How to Use
+
 ### 1️⃣ Get weather forecast for a city:
+
 ```bash
 weather [city]
 ```
+
 Example:
+
 ```bash
 weather "New York"
 weather Tokyo
@@ -55,10 +63,11 @@ weather Tokyo
 - 🇷🇴 Română (ro)
 - 🇸🇦 العربية (ar)
 
-
 ## 📋 Requirements
+
 - Python 3.7+
 - [WeatherAPI Key](https://www.weatherapi.com/)
 
 ## 📜 License
+
 This project is licensed under the MIT License.

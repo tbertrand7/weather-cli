@@ -1,4 +1,4 @@
 __pycache__/
-venv/
+.venv/
 weather_cli.egg-info/
 .env
