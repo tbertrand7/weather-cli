@@ -1,7 +1,7 @@
 {
     "menu-setup": {
         "message": "请选择一个选项",
-        "choices": ["API密钥", "语言"],
+        "choices": ["API密钥", "语言", "温度单位"],
         "menu-key": {
             "message": "在 https://www.weatherapi.com/ 创建账户并获取您的密钥",
             "prompt": "请输入您的 API 密钥：",
@@ -10,12 +10,16 @@
         "menu-lang": {
             "message": "请选择一种语言",
             "confirmation": "语言偏好已保存"
+        },
+        "menu-temp-unit": {
+            "message": "请选择温度单位",
+            "confirmation": "温度单位偏好已保存"
         }
     },
     "weather-info": {
         "location": "📍 位置: {name}, {region}, {country} ({lat}, {lon})",
         "localtime": "🕒 当地时间: {localtime}",
-        "temperature": "🌡️ 温度: {temp}°C (体感温度: {feels_like}°C)",
+        "temperature": "🌡️ 温度: {temp}°{temp_unit} (体感温度: {feels_like}°{temp_unit})",
         "condition": "⛅ 天气: {condition}",
         "humidity": "💧 湿度: {humidity}%",
         "pressure": "⚖️ 气压: {pressure} mb",

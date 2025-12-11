@@ -1,7 +1,7 @@
 {
     "menu-setup": {
         "message": "Selecione uma opção",
-        "choices": ["Chave API", "Idiomas"],
+        "choices": ["Chave API", "Idiomas", "Unidade de temperatura"],
         "menu-key": {
             "message": "Crie uma conta em https://www.weatherapi.com/ e obtenha sua chave",
             "prompt": "Digite sua chave API:",
@@ -10,12 +10,16 @@
         "menu-lang": {
             "message": "Selecione um idioma",
             "confirmation": "Preferência de idioma salva"
+        },
+        "menu-temp-unit": {
+            "message": "Selecione a unidade de temperatura",
+            "confirmation": "Preferência de unidade de temperatura salva"
         }
     },
     "weather-info": {
         "location": "📍 Localização: {name}, {region}, {country} ({lat}, {lon})",
         "localtime": "🕒 Hora local: {localtime}",
-        "temperature": "🌡️ Temperatura: {temp}°C (Sensação térmica: {feels_like}°C)",
+        "temperature": "🌡️ Temperatura: {temp}°{temp_unit} (Sensação térmica: {feels_like}°{temp_unit})",
         "condition": "⛅ Condição: {condition}",
         "humidity": "💧 Umidade: {humidity}%",
         "pressure": "⚖️ Pressão: {pressure} mb",
