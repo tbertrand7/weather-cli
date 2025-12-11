@@ -1,7 +1,7 @@
 {
     "menu-setup": {
         "message": "オプションを選択してください",
-        "choices": ["APIキー", "言語"],
+        "choices": ["APIキー", "言語", "温度単位"],
         "menu-key": {
             "message": "https://www.weatherapi.com/ でアカウントを作成し、APIキーを取得してください",
             "prompt": "APIキーを入力してください:",
@@ -10,12 +10,16 @@
         "menu-lang": {
             "message": "言語を選択してください",
             "confirmation": "言語設定が保存されました"
+        },
+        "menu-temp-unit": {
+            "message": "温度単位を選択してください",
+            "confirmation": "温度単位設定が保存されました"
         }
     },
     "weather-info": {
         "location": "📍場所: {name}、{region}、{country} ({lat}, {lon})",
         "localtime": "🕒 現地時間: {localtime}",
-        "temperature": "🌡️ 気温: {temp}°C (体感温度: {feels_like}°C)",
+        "temperature": "🌡️ 気温: {temp}°{temp_unit} (体感温度: {feels_like}°{temp_unit})",
         "condition": "⛅ コンディション: {condition}",
         "humidity": "💧 湿度: {humidity}%",
         "pressure": "⚖️ 気圧: {pressure} mb",
